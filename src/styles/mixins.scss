@@ -1,0 +1,10 @@
+@mixin btn-base {
+    height: 39px;
+    border-radius: 20px;
+    font-size: 16px;
+    color: white;
+
+    &:focus {
+        outline: none;
+    }
+}
